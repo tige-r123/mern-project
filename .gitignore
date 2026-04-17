@@ -2,25 +2,32 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
+yarn.lock
 
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.env
 .venv/
 env/
 venv/
 *.egg-info/
-dist/
-build/
+*.egg
+*.whl
 *.log
 
 # Docker
 *.dockerignore
-.docker-compose.override.yml
-docker-compose.override.yml
+Dockerfile
+docker-compose.yml
+
+# Frontend
+dist/
+build/
+*.log
+*.cache
 
 # IDE and Editor
 .vscode/
@@ -37,30 +44,29 @@ ehthumbs.db
 Icon?
 Desktop.ini
 
-# Logs and runtime data
-*.log
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Test results
 test_results/
-*.tmp
-*.temp
+coverage/
+*.lcov
 
 # Miscellaneous
-*.json
-*.yml
-*.yaml
-*.md
-*.txt
-*.svg
-*.css
-*.html
-*.js
-*.jsx
-*.map
-*.lock
-*.cache
+*.tmp
+*.temp
+*.bak
+*.orig
+*.pid
+*.seed
+*.pid.lock
 *.tgz
 *.zip
-*.tar.gz
 *.tar
 *.gz
-*.7z
 *.rar
+*.7z
