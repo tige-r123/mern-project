@@ -1,2 +1,66 @@
-node_modules
-.env
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.log
+
+# Docker
+*.dockerignore
+.docker-compose.override.yml
+docker-compose.override.yml
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs and runtime data
+*.log
+test_results/
+*.tmp
+*.temp
+
+# Miscellaneous
+*.json
+*.yml
+*.yaml
+*.md
+*.txt
+*.svg
+*.css
+*.html
+*.js
+*.jsx
+*.map
+*.lock
+*.cache
+*.tgz
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.7z
+*.rar
