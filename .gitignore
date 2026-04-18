@@ -1,41 +1,39 @@
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-yarn.lock
-
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.env
 .venv/
 env/
 venv/
 *.egg-info/
-*.egg
-*.whl
-*.log
-
-# Docker
-*.dockerignore
-Dockerfile
-docker-compose.yml
-
-# Frontend
 dist/
 build/
-*.log
-*.cache
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+package.json
+
+# Docker
+*.dockerfile
+*.dockerignore
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
 
 # IDE and Editor
 .vscode/
 .idea/
-*.swp
-*.swo
 *.sublime-workspace
 *.sublime-project
+*.swp
+*.swo
+*.tmp
 
 # OS-specific
 .DS_Store
@@ -44,29 +42,24 @@ ehthumbs.db
 Icon?
 Desktop.ini
 
-# Environment files
-.env
-.env.local
-.env.development
-.env.test
-.env.production
+# Logs and runtime data
+*.log
+*.out
+*.pid
+*.seed
+
+# Build artifacts
+dist/
+build/
+coverage/
+*.tgz
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/.next/
+frontend/.eslintcache
 
 # Test results
 test_results/
-coverage/
-*.lcov
-
-# Miscellaneous
-*.tmp
-*.temp
-*.bak
-*.orig
-*.pid
-*.seed
-*.pid.lock
-*.tgz
-*.zip
-*.tar
-*.gz
-*.rar
-*.7z

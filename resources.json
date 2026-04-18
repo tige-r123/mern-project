@@ -1,7 +1,7 @@
 [
   {
     "subscription_id": "8e01f6cc-5b9c-4ef8-b1b6-d22da79fc819",
-    "resource_group": "project-rg-18bf7e",
+    "resource_group": "project-rg",
     "github_repo": "tige-r123/mern-project",
     "secret_name": "AZURE_CREDENTIALS",
     "secret_profile_name": null,
@@ -10,13 +10,13 @@
     "azure_resource_type": "Microsoft.Resources/resourceGroups",
     "identifier": "infrastructure_resource",
     "category": "INFRASTRUCTURE",
-    "resource_name": "project-rg-18bf7e",
+    "resource_name": "project-rg",
     "deployment_method": null,
     "generated_by": "antigravity_fix"
   },
   {
     "subscription_id": "8e01f6cc-5b9c-4ef8-b1b6-d22da79fc819",
-    "resource_group": "project-rg-18bf7e",
+    "resource_group": "project-rg",
     "github_repo": "tige-r123/mern-project",
     "secret_name": "AZURE_CREDENTIALS",
     "secret_profile_name": null,
@@ -31,7 +31,7 @@
   },
   {
     "subscription_id": "8e01f6cc-5b9c-4ef8-b1b6-d22da79fc819",
-    "resource_group": "project-rg-18bf7e",
+    "resource_group": "project-rg",
     "github_repo": "tige-r123/mern-project",
     "secret_name": "AZURE_CREDENTIALS",
     "secret_profile_name": null,
@@ -46,24 +46,7 @@
   },
   {
     "subscription_id": "8e01f6cc-5b9c-4ef8-b1b6-d22da79fc819",
-    "resource_group": "project-rg-18bf7e",
-    "github_repo": "tige-r123/mern-project",
-    "secret_name": "AZURE_CREDENTIALS",
-    "secret_profile_name": "AZURE_COSMOSDB_CONNECTION",
-    "res_type": "azurerm_cosmosdb_account",
-    "resource_type": "cosmosdb",
-    "azure_resource_type": "Microsoft.DocumentDB/databaseAccounts",
-    "identifier": "cosmosdb_account",
-    "category": "DATABASE",
-    "resource_name": "project-cosmos-89e057",
-    "deployment_method": "cosmosdb",
-    "generated_by": "antigravity_fix",
-    "endpoint": "https://project-cosmos-89e057.documents.azure.com:443/",
-    "connection_string": "AccountEndpoint=https://project-cosmos-89e057.documents.azure.com:443/;AccountKey=PLACEHOLDER_KEY;"
-  },
-  {
-    "subscription_id": "8e01f6cc-5b9c-4ef8-b1b6-d22da79fc819",
-    "resource_group": "project-rg-18bf7e",
+    "resource_group": "project-rg",
     "github_repo": "tige-r123/mern-project",
     "secret_name": "AZURE_CREDENTIALS",
     "secret_profile_name": "AZURE_PUBLISH_PROFILE_BACKEND",
@@ -72,14 +55,14 @@
     "azure_resource_type": "Microsoft.Web/sites",
     "identifier": "api_service",
     "category": "BACKEND",
-    "resource_name": "project-backend-2a7b4a",
+    "resource_name": "project-backend-9cd2f3",
     "deployment_method": "app_service",
     "generated_by": "antigravity_fix",
-    "endpoint": "https://project-backend-2a7b4a.azurewebsites.net"
+    "endpoint": "https://project-backend-9cd2f3.azurewebsites.net"
   },
   {
     "subscription_id": "8e01f6cc-5b9c-4ef8-b1b6-d22da79fc819",
-    "resource_group": "project-rg-18bf7e",
+    "resource_group": "project-rg",
     "github_repo": "tige-r123/mern-project",
     "secret_name": "AZURE_CREDENTIALS",
     "secret_profile_name": "AZURE_STATIC_WEB_APPS_API_TOKEN",
