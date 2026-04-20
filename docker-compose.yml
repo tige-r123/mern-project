@@ -1,14 +1,30 @@
 version: '3.8'
 services:
-  backend:
-    build: .
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
       - '3000:3000'
     environment:
-      - NODE_ENV=production
-  frontend:
-    image: mern-frontend
+      - REACT_APP_API_URL=http://project-backend-41e6fe.azurewebsites.net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
-      - '80:80'
-    depends_on:
-      - backend
+      - '5000:5000'
+    environment:
+      - MONGODB_URI=PLACEHOLDER_MONGODB_URI
+      - COSMOSDB_CONNECTION_STRING=PLACEHOLDER_CONNECTION_STRING
+
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
